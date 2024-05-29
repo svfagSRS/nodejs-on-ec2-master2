@@ -1,7 +1,7 @@
 var http = require('http');
 
-//create a server object:
+// Create a server object:
 http.createServer(function (req, res) {
-  res.write('You are  in AWS  Cloud. THis is TECHESSAY, Please share and Subscribe and like my Videos pizdet'); //write a response to the client
-  res.end(); //end the response
-}).listen(4000); //the server object listens on port 4000
+  res.write('You are in AWS Cloud. This is TECHESSAY. Please share, subscribe, and like my videos.'); // Write a response to the client
+  res.end(); // End the response
+}).listen(5000); // The server object listens on port 5000
